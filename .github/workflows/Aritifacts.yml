@@ -4,7 +4,7 @@ on: push
 
 jobs:
     job_1:
-        name: 
+        name: Upload Artifact
         runs-on: ubuntu-latest
         steps:
             -   name:
