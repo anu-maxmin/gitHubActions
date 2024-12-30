@@ -22,6 +22,8 @@ jobs:
     env: 
       Greeting: Dear
       testvar: value-2
+      TOP_SECRET: i-am-top-secre..please-dont-disclose-me
+      
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
