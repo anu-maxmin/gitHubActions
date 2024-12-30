@@ -9,7 +9,7 @@ jobs:
         steps:
             -   name:
                 run: echo "Hi, I am storing this data in this file, so that I can use this in the subsequent jobs within ths workflow run will upload this file to GitHub storage and download from there when needed in this woekflow run." > file.txt
-            -   uses: actions/upload-artifact@v2
+            -   uses: actions/upload-artifact@v4
                 with:
                     name: file
                     path: file.txt
